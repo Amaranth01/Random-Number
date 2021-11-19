@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.index.css">
+
+</head>
+<body>
+     <div id="content">
+
+         <div id="title">
+            <h1>Number guessing game</h1>
+         </div>
+
+         <div id="rules">
+             <h2>Les règles du jeu</h2>
+                <p>Sélectionnez un chiffre au hasard entre 1 et 100. Si au bout de 10 chances, vous n'avez pas trouvé, vous êtes éliminé.
+                Le jeu vous indiquera si vous êtes en dessous, ou en dessous. </p>
+         </div>
+
+        <div class="form">
+            <label for="guessField">Entrez un chiffre </label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+
+            <div id="Guess">
+                <p class="guesses"></p>
+            </div>
+
+            <div id="result">
+                <p class="lastResult"></p>
+            </div>
+
+            <div id="big">
+                <p class="lowOrHi"></p>
+            </div>
+
+        </div>
+
+     </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 65.5%;
+}
+
+body {
+    background-color: indigo;
+}
+
+#content {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: white 1px 1px 1px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#rules {
+    margin-left: 1.6rem;
+    width: 95%;
+    margin-top: 1rem;
+    padding: 2rem;
+    border: white solid 2px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+.resultParas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+big {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+}
